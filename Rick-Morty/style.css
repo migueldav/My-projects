@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(to bottom, #0E8BF0 5%, #0F6CFA 20%, #335BE0 60%, #0F20FA 95%);
+    background-attachment: fixed;
+}
+ul > li {
+    list-style: none;
+    color: #E0B002;
+    font-weight: 500;
+}
+ul > li > span {
+    font-weight: 700;
+}
+.fixed-button {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
