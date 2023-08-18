@@ -105,10 +105,6 @@ def listen_microphone(paused=False):
             pya.press('enter')
             sleep(1.4)
 
-    def open_browser():
-        pya.click(x=558, y=741)
-        pya.hotkey('ctrl', 'shift', 'w')
-
     def wait_for_play():
         nonlocal paused
         while paused:
