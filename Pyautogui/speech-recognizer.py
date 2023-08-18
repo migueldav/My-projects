@@ -127,9 +127,6 @@ def listen_microphone(paused=False):
             wait_for_play()
             continue
 
-        if text == 'open browser':
-            open_browser()
-
         elif isinstance(text, str) and text.startswith('open'):
             app = helper(text)
             open_app(app)
